@@ -2,10 +2,11 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  css: ['vuetify/styles'],
-   build: {
-    transpile: ['vuetify'],
-  },
-  plugins: ['~/plugins/vuetify.js'],
+    ssr: true,
+    build: {
+        transpile: ['vuetify']
+    },
+    css: ['vuetify/styles'],
+    plugins: ['/plugins/vuetify.ts']
 
 })

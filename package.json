@@ -17,7 +17,9 @@
   },
   "devDependencies": {
     "@nuxt/types": "^2.18.1",
+    "@types/node": "^24.0.15",
     "deepmerge": "^4.3.1",
+    "prettier": "^3.6.2",
     "sass": "^1.89.2",
     "typescript": "^5.8.3"
   }
