@@ -2,6 +2,5 @@
 <template>
   <header-menu />
   <information />
-  <introduction />
-</template>
+ </template>
 <style></style>

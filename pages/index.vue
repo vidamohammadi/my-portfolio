@@ -3,6 +3,7 @@
   <v-container fluid class="pa-0">
     <v-row no-gutters>
       <home />
+      <introduction />
     </v-row>
   </v-container>
 </template>

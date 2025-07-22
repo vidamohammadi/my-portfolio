@@ -15,8 +15,8 @@
           <h1 class="">I am Developer |</h1>
           <span>I make the complex simple.</span>
           <br />
-          <v-btn class="bg-primary text-body-2 rounded-lg mt-5">
-            contact me
+          <v-btn class="bg-primary text-white text-body-2 rounded-md mt-5">
+            Contact Me
           </v-btn>
         </div>
         <v-row style="height: 50px">
