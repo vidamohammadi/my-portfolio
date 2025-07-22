@@ -8,13 +8,11 @@
   ]);
 </script>
 <template>
-  <nav
-    class="d-flex justify-center align-center px-5 w-100 rounded-lg "
-    elevation="0">
+  <nav class="d-flex justify-center align-center pa-5 w-100 bg-light_black">
     <NuxtLink
       v-for="item in menuItems"
       :key="item.title"
-      to='/'
+      to="/"
       class="text-secondary text-shades-white text-decoration-none text-subtitle-2 font-weight-medium pr-4 d-block">
       {{ item.title }}
     </NuxtLink>

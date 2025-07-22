@@ -5,8 +5,8 @@
   const screenHeight = computed(() => height.value - 100);
 </script>
 <template>
-  <v-container class="">
-    <v-row class="">
+  <v-container class='bg-light_black' fluid>
+    <v-row class="px-10">
       <v-col cols="6">
         <div
           class="pa-10 align-content-center"
@@ -15,7 +15,7 @@
           <h1 class="">I am Developer |</h1>
           <span>I make the complex simple.</span>
           <br />
-          <v-btn class="bg-green-accent-2 text-body-2 rounded-lg mt-5">
+          <v-btn class="bg-primary text-body-2 rounded-lg mt-5">
             contact me
           </v-btn>
         </div>
