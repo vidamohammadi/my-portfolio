@@ -4,6 +4,7 @@
     <v-row no-gutters>
       <home />
       <introduction />
+      <skills />
     </v-row>
   </v-container>
 </template>

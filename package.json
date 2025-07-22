@@ -16,6 +16,7 @@
     "vuetify": "^3.9.0-beta.1"
   },
   "devDependencies": {
+    "@mdi/js": "7.4.47",
     "@nuxt/types": "^2.18.1",
     "@types/node": "^24.0.15",
     "deepmerge": "^4.3.1",

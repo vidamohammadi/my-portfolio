@@ -1,7 +1,9 @@
 // plugins/vuetify.ts
 import {createVuetify, type ThemeDefinition} from 'vuetify';
+import {aliases, mdi} from 'vuetify/iconsets/mdi-svg';
 import * as components from 'vuetify/components';
 import * as directives from 'vuetify/directives';
+import {} from '@mdi/js';
 
 const myCustomTheme: ThemeDefinition = {
   colors: {
@@ -9,6 +11,7 @@ const myCustomTheme: ThemeDefinition = {
     light_black: '#1F1F1F91'
   }
 };
+const icons = {};
 export default defineNuxtPlugin(app => {
   const vuetify = createVuetify({
     components,
@@ -18,6 +21,16 @@ export default defineNuxtPlugin(app => {
       defaultTheme: 'myCustomTheme',
       themes: {
         myCustomTheme
+      }
+    },
+    icons: {
+      defaultSet: 'mdi',
+      aliases: {
+        ...aliases,
+        ...icons
+      },
+      sets: {
+        mdi
       }
     }
   });
