@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
-  <header-menu />
+<!--  <header-menu />-->
   <information />
  </template>
 <style></style>

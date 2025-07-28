@@ -2,15 +2,15 @@
   import {useDisplay} from 'vuetify';
 
   const {height} = useDisplay();
-  const screenHeight = computed(() => height.value - 100);
+  const screenHeight = computed(() => height.value - 60);
 </script>
 <template>
-  <v-container class='bg-light_black' fluid>
+  <v-container class="bg-light_black" fluid>
     <v-row class="px-10">
       <v-col cols="6">
         <div
           class="pa-10 align-content-center"
-          :style="{height: screenHeight - 50 + 'px !important'}">
+          :style="{height: screenHeight + 'px !important'}">
           <span>Hi there!</span>
           <h1 class="">I am Developer |</h1>
           <span>I make the complex simple.</span>
