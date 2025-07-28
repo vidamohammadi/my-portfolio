@@ -49,7 +49,7 @@
       </v-col>
       <v-col cols="6" class="mt-5">
         <v-img
-          src="/images/IMG_4250.JPG"
+          src="/images/IMG_4250.jpeg"
           :style="{height: screenHeight + 'px !important'}" />
       </v-col>
     </v-row>
