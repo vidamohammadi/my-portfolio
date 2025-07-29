@@ -3,6 +3,13 @@
 
   const {height} = useDisplay();
   const screenHeight = computed(() => height.value - 60);
+
+  const scrollToContact = () => {
+    const el = document.getElementById('contact-section');
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 </script>
 <template>
   <v-container class="bg-light_black" fluid>
@@ -15,7 +22,7 @@
           <h1 class="">I am Developer |</h1>
           <span>I make the complex simple.</span>
           <br />
-          <v-btn class="bg-primary text-white text-body-2 rounded-md mt-5">
+          <v-btn class="bg-primary text-white text-body-2 rounded-md mt-5" @click='scrollToContact'>
             Contact Me
           </v-btn>
         </div>

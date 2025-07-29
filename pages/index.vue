@@ -5,6 +5,8 @@
       <home />
       <introduction />
       <skills />
+
+        <contact />
     </v-row>
   </v-container>
 </template>
