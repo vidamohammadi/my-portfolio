@@ -7,7 +7,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@vuelidate/core": "^2.0.3",
@@ -23,6 +24,7 @@
     "@nuxt/types": "^2.18.1",
     "@types/node": "^24.0.15",
     "deepmerge": "^4.3.1",
+    "gh-pages": "^6.3.0",
     "prettier": "^3.6.2",
     "sass": "^1.89.2",
     "typescript": "^5.8.3"
