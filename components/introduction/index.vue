@@ -1,6 +1,6 @@
 <script setup>
   const downloadCV = () => {
-    const contractPath = '/documents/Resume.pdf';
+    const contractPath = '/my-portfolio/documents/Resume.pdf';
     const link = document.createElement('a');
     link.href = contractPath;
     link.download = 'vida-mohammadi-resume.pdf';
