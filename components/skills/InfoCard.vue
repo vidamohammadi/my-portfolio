@@ -6,7 +6,7 @@
 <template>
   <v-card class="pa-5 d-flex flex-column align-center justify-center bg-light_black white-shadow rounded-lg">
     <v-img
-      :src="`/images/skills/${skillsData.path}.png`"
+      :src="`/my-portfolio/images/skills/${skillsData.path}.png`"
       width="100"
       height="100"
     />

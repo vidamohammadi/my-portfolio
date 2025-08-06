@@ -11,7 +11,7 @@
   <v-container class="mt-10">
     <v-row>
       <v-col cols="5">
-        <v-img src="/images/IMG_E3746.JPG" height="500px" />
+        <v-img src="/my-portfolio/images/IMG_E3746.JPG" height="500px" />
       </v-col>
       <v-col cols="7">
         <div class="ml-8 mt-5">
