@@ -2,6 +2,10 @@
   import {useVuelidate} from '@vuelidate/core';
   import {required, minLength, email} from '@vuelidate/validators';
   import emailjs from 'emailjs-com';
+  import {useDisplay} from 'vuetify';
+
+  const {lgAndUp} = useDisplay();
+  const isDesktop = computed(() => lgAndUp.value);
 
   const name = ref('');
   const emailValue = ref('');
@@ -43,7 +47,7 @@
       <v-row justify="center">
         <v-col cols="12" md="6">
           <v-card class='bg-light_black pa-6 rounded-lg white-shadow '>
-            <v-card-title class="text-h5">Get in Touch</v-card-title>
+            <v-card-title class="text-lg-h5 text-body-1">Get in Touch</v-card-title>
             <v-card-text>
               <v-form @submit.prevent="submit">
                 <v-text-field
