@@ -15,8 +15,8 @@
       <h1 class="outlined-text">SKILLS</h1>
       <p class="text-white over-text">my skills</p>
     </div>
-    <v-row class="d-none d-lg-flex ma-5 align-content-lg-space-between">
-      <v-col cols="2" v-for="(item, index) in skills" :key='index' >
+    <v-row class="ma-5 align-content-lg-space-between">
+      <v-col lg="2" cols="4" v-for="(item, index) in skills" :key='index' >
          <skills-info-card :skill="item" />
       </v-col>
     </v-row>
