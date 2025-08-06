@@ -3,7 +3,6 @@ import {createVuetify, type ThemeDefinition} from 'vuetify';
 import {aliases, mdi} from 'vuetify/iconsets/mdi-svg';
 import * as components from 'vuetify/components';
 import * as directives from 'vuetify/directives';
-import {} from '@mdi/js';
 
 const myCustomTheme: ThemeDefinition = {
   colors: {
