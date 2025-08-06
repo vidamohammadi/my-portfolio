@@ -5,10 +5,10 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "gh-pages -d dist"
+    "generate": "nuxt generate",
+    "deploy": "nuxt generate && gh-pages -d dist"
   },
   "dependencies": {
     "@vuelidate/core": "^2.0.3",
