@@ -4,7 +4,8 @@ export default defineNuxtConfig({
   devtools: {enabled: true},
   ssr: false,
   app: {
-    baseURL: '/my-portfolio/'
+    baseURL: '/my-portfolio/',
+    buildAssetsDir: 'assets'
   },
   build: {
     transpile: ['vuetify']
