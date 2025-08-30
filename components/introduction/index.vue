@@ -4,7 +4,7 @@
   const {lgAndUp} = useDisplay();
   const isDesktop = computed(() => lgAndUp.value);
   const downloadCV = () => {
-    const contractPath = '/my-portfolio/documents/Resume.pdf';
+    const contractPath = '/my-portfolio/documents/vida-mohammadi-resume.pdf';
     const link = document.createElement('a');
     link.href = contractPath;
     link.download = 'vida-mohammadi-resume.pdf';
