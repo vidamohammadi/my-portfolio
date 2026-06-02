@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     preset: 'github-pages'
   },
   app: {
-    baseURL: '/',
+    baseURL: '/my-portfolio/',
     buildAssetsDir: 'assets'
   },
   build: {
