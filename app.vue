@@ -12,5 +12,4 @@
 html { scroll-behavior: smooth; }
 body { background: #0a0a0a; }
 
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600&display=swap');
-</style>
+ </style>
